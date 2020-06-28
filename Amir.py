@@ -892,8 +892,8 @@ jalan("\033[1;93m▇▇\033[1;92m        Termux Data Clear EveryDay    \033[1;93
 jalan("\033[1;93m▇▇\033[1;92m         WhatsApp  Num 03094161457    \033[1;93m▇▇")
 jalan("\033[1;93m ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇")
 print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"
-CorrectUsername = "Black"
-CorrectPassword = "Mafia"
+CorrectUsername = "ANQ1 "
+CorrectPassword = "0000"
 
 loop = 'true'
 while (loop == 'true'):
